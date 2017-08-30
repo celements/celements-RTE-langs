@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>  
+  <modelVersion>4.0.0</modelVersion>
   <groupId>com.celements</groupId>
   <artifactId>tinymce-langs</artifactId>
   <packaging>war</packaging>
@@ -8,40 +8,40 @@
   <name>TinyMCE Language Files</name>
   <scm>
     <developerConnection>scm:svn:svn+ssh://dev1.synventis.com:10022/svn/com_celements/trunk</developerConnection>
-  </scm>  
-  <dependencies>    
+  </scm>
+  <dependencies>
     <!-- Add here all your dependencies -->
     <dependency>
-	  <groupId>com.celements</groupId> 
-	  <artifactId>tinymce-base</artifactId> 
-	  <version>3.4.3.2-celRTE</version> 
-	  <type>war</type> 
-    </dependency>  
+    <groupId>com.celements</groupId>
+    <artifactId>tinymce-base</artifactId>
+    <version>3.4.3.2-celRTE-b1</version>
+    <type>war</type>
+    </dependency>
   </dependencies>
-  <build>  
+  <build>
     <finalName>tinymce-langs</finalName>
     <pluginManagement>
       <plugins>
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
           <version>2.1</version>
-          <configuration>          
+          <configuration>
             <tagBase>
               svn:svn+ssh://dev1.synventis.com:10022/svn/com_celements/tags
-            </tagBase>          
+            </tagBase>
           </configuration>
         </plugin>
-	    <plugin>
-		  <groupId>org.apache.maven.plugins</groupId>
-		  <artifactId>maven-compiler-plugin</artifactId>
-		  <version>2.3.2</version>
+      <plugin>
+      <groupId>org.apache.maven.plugins</groupId>
+      <artifactId>maven-compiler-plugin</artifactId>
+      <version>2.3.2</version>
           <configuration>
             <complianceLevel>1.5</complianceLevel>
-		    <source>1.5</source>
-		    <target>1.5</target>
-		    <encoding>${project.build.sourceEncoding}</encoding>
-		  </configuration>
-	    </plugin>
+        <source>1.5</source>
+        <target>1.5</target>
+        <encoding>${project.build.sourceEncoding}</encoding>
+      </configuration>
+      </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
@@ -64,7 +64,7 @@
         </executions>
       </plugin>
       </plugins>
-    </pluginManagement> 
+    </pluginManagement>
     <extensions>
       <extension>
         <groupId>org.apache.maven.wagon</groupId>
@@ -74,19 +74,19 @@
     </extensions>
   </build>
   <distributionManagement>
-<!-- 
-  	<snapshotRepository>
-  	  <id>ftp-snapshot-repository</id>
+<!--
+    <snapshotRepository>
+      <id>ftp-snapshot-repository</id>
       <url>ftp://maven.celements.ch/httpdocs/snapshots/</url>
       <uniqueVersion>true</uniqueVersion>
-  	</snapshotRepository>
+    </snapshotRepository>
     <repository>
       <id>ftp-release-repository</id>
       <url>ftp://maven.celements.ch/httpdocs/releases/</url>
       <uniqueVersion>true</uniqueVersion>
     </repository>
 -->
-	<snapshotRepository>
+  <snapshotRepository>
       <id>ssh-snapshot-repository</id>
       <url>scpexe://maven.celements.ch/var/www-celements/snapshots</url>
       <uniqueVersion>true</uniqueVersion>
@@ -95,6 +95,6 @@
       <id>ssh-release-repository</id>
       <url>scpexe://maven.celements.ch/var/www-celements/releases</url>
       <uniqueVersion>true</uniqueVersion>
-    </repository>   		
+    </repository>
   </distributionManagement>
 </project>

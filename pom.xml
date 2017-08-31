@@ -4,7 +4,7 @@
   <groupId>com.celements</groupId>
   <artifactId>tinymce-langs</artifactId>
   <packaging>war</packaging>
-  <version>3.4.3.2-celRTE</version>
+  <version>3.4.3.2-celRTE-b1</version>
   <name>TinyMCE Language Files</name>
   <scm>
     <developerConnection>scm:svn:svn+ssh://dev1.synventis.com:10022/svn/com_celements/trunk</developerConnection>

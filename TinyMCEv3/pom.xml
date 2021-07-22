@@ -22,9 +22,7 @@
  *
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <url>https://github.com/celements/celements-RTE-langs</url>
   <parent>
     <groupId>com.celements</groupId>
@@ -34,7 +32,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>tinymce-langs</artifactId>
   <packaging>war</packaging>
-  <version>3.4.3.2-celRTE-b2-SNAPSHOT</version>
+  <version>3.4.3.2-celRTE-b2</version>
   <name>TinyMCE Language Files</name>
   <licenses>
     <license>
@@ -47,6 +45,7 @@
     <connection>scm:git:git://github.com/celements/celements-RTE-langs</connection>
     <developerConnection>scm:git:git@github.com:celements/celements-RTE-langs.git</developerConnection>
     <url>https://github.com/celements/celements-RTE-langs</url>
+    <tag>tinymce-langs-3.4.3.2-celRTE-b2</tag>
   </scm>
   <dependencies>
     <!-- Add here all your dependencies -->

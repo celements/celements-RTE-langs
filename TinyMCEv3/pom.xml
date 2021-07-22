@@ -29,7 +29,7 @@
   <parent>
     <groupId>com.celements</groupId>
     <artifactId>base-pom</artifactId>
-    <version>5.2-SNAPSHOT</version>
+    <version>5.2</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>tinymce-langs</artifactId>
@@ -53,7 +53,7 @@
     <dependency>
       <groupId>com.celements</groupId>
       <artifactId>tinymce-base</artifactId>
-      <version>3.4.3.2-celRTE-b2-SNAPSHOT</version>
+      <version>3.4.3.2-celRTE-b2</version>
       <type>war</type>
     </dependency>
   </dependencies>

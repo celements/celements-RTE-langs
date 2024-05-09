@@ -32,7 +32,7 @@
   <modelVersion>4.0.0</modelVersion>
   <artifactId>tinymce-langs-v6</artifactId>
   <packaging>war</packaging>
-  <version>6.3.0-CEL5-SNAPSHOT</version>
+  <version>6.8.3-CEL5-SNAPSHOT</version>
   <name>TinyMCE Language Files</name>
   <licenses>
     <license>
@@ -52,7 +52,7 @@
     <dependency>
       <groupId>com.celements</groupId>
       <artifactId>tinymce-base-v6</artifactId>
-      <version>6.3.0-CEL5</version>
+      <version>6.8.3-CEL5-SNAPSHOT</version>
       <type>war</type>
     </dependency>
   </dependencies>

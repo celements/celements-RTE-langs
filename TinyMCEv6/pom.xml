@@ -27,7 +27,7 @@
   <parent>
     <groupId>com.celements</groupId>
     <artifactId>base-pom</artifactId>
-    <version>7.0</version>
+    <version>7.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>tinymce-langs-v6</artifactId>
@@ -51,7 +51,7 @@
     <dependency>
       <groupId>com.celements</groupId>
       <artifactId>tinymce-base-v6</artifactId>
-      <version>7.0</version>
+      <version>7.1-SNAPSHOT</version>
       <type>war</type>
     </dependency>
   </dependencies>
